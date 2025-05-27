@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap"
+        rel="stylesheet">
+
+    <title>career.io</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: linear-gradient(#E6E6FA, #B8E7FA);
+        }
+
+        * {
+            font-family: "Ancizar Sans", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .underline {
+            text-decoration: underline;
+
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            background-color: aliceblue;
+            margin: 0px;
+            height: 80px;
+            text-align: center;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: aliceblue;
+        }
+
+
+
+        span {
+            color: #FFA500;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        button {
+            background-image: linear-gradient(#FFA500, #FFD447);
+            border-radius: 10px;
+            padding: 17px 24px;
+            cursor: pointer;
+        }
+
+
+        #connect {
+            background-color: #E6EDF9;
+            margin: 100px;
+            padding: 50px;
+            border-radius: 16px;
+            margin-bottom: 20px;
+        }
+
+        #banner * {
+            margin-bottom: 30px;
+        }
+
+        #discuss {
+            background-color: #E6EDF9;
+            margin: 100px;
+            padding: 50px;
+            border-radius: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .discuss h1 {
+            font-size: 24px;
+            font-weight: bolder;
+        }
+
+        .discuss p {
+            font-size: 16px;
+        }
+
+        #targets {
+            text-align: center;
+        }
+
+        #box {
+            display: flex;
+            max-width: 1000px;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            margin: 30px auto;
+        }
+
+        .box {
+            background-image: linear-gradient(#E6EDF9, #9DE5FF);
+            padding-right: 250px;
+            border-radius: 10px
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h3 class="hc">career<span>.io</span></h3>
+
+        <button class="b1" type="button" onclick="alert('Hello world!')">Download Resume</button>
+    </header>
+
+    <div id="banner">
+
+        <div id="connect" class="center">
+            <div><img src="assets/hero-developer.png" alt="Hero-Developer" width="500" height="333">
+
+                <h2>"In 2025, I hope to become a Developer."</h2>
+
+                <p>In 2025, I hope to become a developer and turn my passion for technology into a successful. <br> I
+                    am committed to learning programming languages, building real-world projects, and continuously
+                    improving my skills. <br> My goal is to create innovative solutions that make a positive impact.
+            </div>
+            <button type="button" onclick="alert('Hello world!')">Let's Connect</button>
+        </div>
+
+        <div class="center">
+            <h2>Why Web Development??</h2>
+
+            <p>Web development excites me because it combines creativity with technology to build interactive and useful
+                websites. <br> It allows me to solve real-world problems, reach a global audience, and constantly learn
+                new
+                skills. <br> The fast-growing industry offers endless opportunities to innovate and make a meaningful
+                impact
+                online.</p>
+        </div>
+        <!-- discuss -->
+        <div id="discuss">
+            <div class="discuss-text">
+                <h1>I will Do Coding and Change The World</h1>
+
+                <p>I will do coding to create smart solutions, solve real problems, and inspire change. <br> Through
+                    technology, I aim to make a positive global impact.</p>
+                <button type="button" onclick="alert('Hello world!')">Let's Discuss</button>
+            </div>
+
+            <div class="discuss-img"><img src="assets/working-developer.png" alt="Working-Developer"></div>
+
+
+        </div>
+
+        <div class="center">
+            <h2>My Inspiration</h2>
+
+            <p>My inspiration to become a web developer comes from seeing how websites connect people, <br> share
+                knowledge,
+                and solve problems through creativity and innovation.</p>
+        </div>
+
+
+
+
+
+        <div class="center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DGHn2uOAVCE?si=mUuNChekwHJbJkz3"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <div id="targets">
+            <h2>My Current Target</h2>
+
+            <p>My current target is to master HTML, CSS, and JavaScript and <br> start building real-world web
+                development
+                projects.</p>
+        </div>
+
+        <div id="box">
+            <div class="box"><img src="assets/html-icon.png" alt="html">
+                <h3>HTML</h3>
+                <h5 class="underline"><a href="https://www.w3schools.com/html/">Learn More</a></h5>
+            </div>
+            <div class="box"><img src="assets/css-icon.png" alt="css">
+                <h3>CSS</h3>
+                <h5 class="underline"><a href="https://www.w3schools.com/css/">Learn More</a></h5>
+            </div>
+            <div class="box"><img src="assets/tailwind-icon.png" alt="tailwind">
+                <h3>TAILWIND</h3>
+                <h5 class="underline"><a href="https://tailwindcss.com/">Learn More</a></h5>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>An Open Commitment by F.Zihad</p>
+
+        <ul><img src="assets/facebook.png" alt="facebook">
+            <img src="assets/github.png" alt="github">
+            <img src="assets/linkedin.png" alt="linkedin">
+        </ul>
+    </footer>
+
+
+</body>
+
+</html>
